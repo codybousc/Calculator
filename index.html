@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app="calculator">
+<head>
+ <title>FCC Calculator</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/mystyles.css" type="text/css">
+</head>
+<body>
+
+  <div class="calculatorBody center-block">
+    <div class="calcHeader"></div>
+    <div class="screen"></div>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1 button">
+          <button class="btn btn-primary btn-sm center-block">AC</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">CE</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">%</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">/</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1 button">
+          <button class="btn btn-primary btn-sm center-block">7</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">8</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">9</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">X</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1 button">
+          <button class="btn btn-primary btn-sm center-block">4</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">5</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">6</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">-</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1 button">
+          <button class="btn btn-primary btn-sm center-block">1</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">2</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">3</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">+</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1 button">
+          <button class="btn btn-primary btn-sm center-block">0</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">+</button>
+        </div>
+        <div class="col-md-2 button">
+          <button class="btn btn-primary btn-sm center-block">=</button>
+        </div>
+    </div>
+  </div>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="controllers/CalculatorController.js" type="text/javascript"></script>
+
+</body>
